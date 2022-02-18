@@ -2,12 +2,10 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This is a repository where I write about mathematical functions using and coding some examples in python, where main objective is show so me differences into them.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+I wrote this repository because in the future I want come here and remember easily all highlight about mathematical functions, some differences and share all information getting in a platzi course about "Course on Mathematical Functions for Data Science and Artificial Intelligence"
+
 
 ## Table of Contents (Optional)
 
