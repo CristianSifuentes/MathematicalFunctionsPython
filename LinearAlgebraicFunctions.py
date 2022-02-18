@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt   # librería para graficar
 import numpy as np 
 
 
+
 N = 100
 
 m = -1
