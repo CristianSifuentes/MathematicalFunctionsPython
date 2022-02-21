@@ -46,11 +46,18 @@ que es un polinomio de grado 7.
 
 ## Power Functions
 
-List your collaborators, if any, with links to their GitHub profiles.
+Hay unas funciones que son un caso particular de las funciones polinómicas que son las funciones potencia, las cuales tienen la forma:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-If you followed tutorials, include links to those here as well.
+$$f(x)= x^{a}, a \in R$$ 
+
+
+**Por ejemplo:**
+
+$$f(x)= x^{2}$$
+
+El dominio de $f(x)=x^{2}$ es $Dom_{f} = (-\infty, \infty)$. Su imagen es $Im_{f} = [0, \infty)$
+
 
 ## License
 
