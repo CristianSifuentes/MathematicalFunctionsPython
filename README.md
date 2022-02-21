@@ -1,4 +1,4 @@
-# <Your-Project-Title>
+# <MathematicalFunctionsPython>
 
 ## Description
 
@@ -11,12 +11,12 @@ I wrote this repository because in the future I want come here and remember easi
 
 Algebraic functions.
 
-- [Linear  Functions](#inear functions)
-- [Usage](#usage)
-- [Credits](#credits)
+- [Linear Functions](#linear-functions)
+- [Polynomial Functions](#polynomial-functions)
+- [Power Functions](#power-functions)
 - [License](#license)
 
-## Linear  Functions
+## Linear Functions
 
 Tiene la forma de $$f(x)=mx + b$$ donde $m$ y $b$  $\in R$. 
 
@@ -27,17 +27,24 @@ y $b$ es el punto de corte con el eje $y$. Su dominio es $Dom_{f} = (-\infty, \i
 
 
 
-## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+## Polynomial Functions
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Tiene la forma de $$P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$$
+
+a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremos coeficientes donde $a \in R$. 
+
+**Por ejemplo:**
+
+$$P(x)= 2x^{7} - x^{4} + 3x^{2} + 4$$
+
+que es un polinomio de grado 7.
 
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
 
-## Credits
+## Power Functions
 
 List your collaborators, if any, with links to their GitHub profiles.
 
