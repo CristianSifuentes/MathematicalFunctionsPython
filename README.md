@@ -11,12 +11,12 @@ I wrote this repository because in the future I want come here and remember easi
 
 Algebraic functions.
 
-- [Algebraic Functions](#algebraicfunctions)
+- [Linear  Functions](#inear functions)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Algebraic Functions
+## Linear  Functions
 
 Tiene la forma de $$f(x)=mx + b$$ donde $m$ y $b$  $\in R$. 
 
