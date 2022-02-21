@@ -9,7 +9,7 @@ I wrote this repository because in the future I want come here and remember easi
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+Algebraic functions.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,7 +18,14 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Tiene la forma de $$f(x)=mx + b$$ donde $m$ y $b$  $\in R$. 
+
+$m$ puede ser calculada por: $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$
+
+y $b$ es el punto de corte con el eje $y$. Su dominio es $Dom_{f} = (-\infty, \infty)$. Su imagen es $Im_{f} = (-\infty, \infty)$
+
+
+
 
 ## Usage
 
