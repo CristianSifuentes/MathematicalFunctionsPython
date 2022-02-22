@@ -13,12 +13,18 @@ Algebraic functions.
 
 - [Linear Functions](#linear-functions)
 - [Polynomial Functions](#polynomial-functions)
-- [Power Functions](#power-functions)
-- [License](#license)
+- [Trigonometric Functions](#trigonometric-functions)
+- [Exponential function](#exponential-function)
+- [Logarithm function](#logarithm-function)
+- [Sectioned Function](#sectioned-function)
+
+
+
+
 
 ## Linear Functions
 
-Tiene la forma de $$f(x)=mx + b$$ donde $m$ y $b$  $\in R$. 
+Tiene la forma de $$f(x)=mx + b$$ donde $m$ y $b$  $\in R$.
 
 $m$ puede ser calculada por: $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$
 
@@ -38,49 +44,56 @@ a una función que tiene esta forma se le llama polinomio de grado $n$. A los el
 
 $$P(x)= 2x^{7} - x^{4} + 3x^{2} + 4$$
 
-que es un polinomio de grado 7.
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Power Functions
-
-Hay unas funciones que son un caso particular de las funciones polinómicas que son las funciones potencia, las cuales tienen la forma:
 
 
-$$f(x)= x^{a}, a \in R$$ 
+## Trigonometric functions
+
+Algunos ejemplos son las funciones $cos(x)$, $sen(x)$ y $tan(x)$
 
 
-**Por ejemplo:**
 
-$$f(x)= x^{2}$$
+## Exponential function
 
-El dominio de $f(x)=x^{2}$ es $Dom_{f} = (-\infty, \infty)$. Su imagen es $Im_{f} = [0, \infty)$
+Tienen la forma de $$f(x)=a^x$$ donde la base $a$ es una constante positiva. Un gran ejemplo de una función exponencial es usando la base como el número de euler:
+
+$$f(x)=e^x$$
 
 
-## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+## Logarithm Function
 
----
+El logaritmo está definido por la **relación**:
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+$$log_{b}(x) = n \Longleftrightarrow x=b^n$$ 
 
-## Badges
+donde: 
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-## Features
+*   $b$ es la base.
+*   $n$ es el exponente al que está elevado la base.
+*   $x$ es el resultado de elevar la base $b$ al exponente $n$
 
-If your project has a lot of features, list them here.
+**Ejemplo:**
 
-## How to Contribute
+Teniendo b=2 y n=8, entonces:
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+$$2^8=256$$
 
-## Tests
+Por lo que $x=256$. Calculando el logaritmo base 2 de $x$ es:
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+$$log_{2}(256) = 8$$
+
+
+
+
+## Sectioned Function
+
+Son funciones que tienen diferentes valores definidos por un intervalo. Por ejemplo la función escalón de Heaviside: 
+
+$$H(x) = 
+     \begin{cases}
+        0, &\quad \text{para, } x < 0 \\
+        1,  &\quad\text{para. } x \ge 0 \\
+     \end{cases}
+$$
