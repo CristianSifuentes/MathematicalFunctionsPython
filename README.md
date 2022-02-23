@@ -71,9 +71,12 @@ $$log_{2}(256) = 8$$
 
 Son funciones que tienen diferentes valores definidos por un intervalo. Por ejemplo la función escalón de Heaviside:
 
-$$H(x) =
+$$
+H(x) =
      \begin{cases}
         0, &\quad \text{para, } x < 0 \\
         1,  &\quad\text{para. } x \ge 0 \\
      \end{cases}
 $$
+
+$x_{n}$
