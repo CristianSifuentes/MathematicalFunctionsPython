@@ -81,3 +81,11 @@ $$
 
 $x_{n}$
 $$\cos\bar{\phi}_k Q_{j,k+1,t} + Q_{j,k+1,x}+ \frac{\sin^2\bar{\phi}_k}{T\cos\bar{\phi}_k} Q_{j,k+1} = -\cos\phi_j Q_{j,k,t} + Q_{j,k,y}-\frac{\sin^2\phi_j}{T\cos\phi_j} Q_{j,k}$$
+
+
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+
+```math
+e^i + 1 = 0
+```
