@@ -1,3 +1,4 @@
+
 # Mathematical Functions Python
 
 ## Description
@@ -19,7 +20,7 @@ Algebraic functions.
 
 ## Linear Functions
 
-Tiene la forma de $$f(x)=mx + b$$ donde $m$ y $b$  $\in R$.
+Tiene la forma de $f(x)=mx + b$ donde $m$ y $b$  $\in R$.
 
 $m$ puede ser calculada por: $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$
 
