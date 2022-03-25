@@ -10,16 +10,24 @@ I wrote this repository because in the future I want come here and remember easi
 
 Algebraic functions.
 
-- [Linear Functions](#linear-functions)
-- [Polynomial Functions](#polynomial-functions)
-- [Trigonometric Functions](#trigonometric-functions)
-- [Exponential function](#exponential-function)
-- [Logarithm function](#logarithm-function)
-- [Sectioned Function](#sectioned-function)
+   * [Algebraic functions
+](#algebraic-functions)
+      * [Linear Functions](#linear-functions)
+      * [Polynomial Functions](#polynomial-functions)
+   * [Transcendent functions
+](#transcendent-functions)
+      * [Trigonometric Functions](#trigonometric-functions)
+      * [Exponential function](#exponential-function)
+      * [Logarithm function](#logarithm-function)
+   * [Sectioned function
+](#sectioned-function)
+
+
+
 
 ## Linear Functions
 
-![Alt text](/Images/LinearFunction.png.png?raw=true "Linear Function.png")
+![Alt text](/Images/LinearFunction.png?raw=true "Linear Function.png")
 
 
 ```python
@@ -45,13 +53,21 @@ ax.grid()
 
 ## Polynomial Functions
 
-Tiene la forma de $$P(x)=a_{n}x^{n} + a_{n-1}x^{n-1}+...+a_{2}x^{2}+a_{1}x + a_{1}$$
+![Alt text](/Images/PolynomialFunctions.png?raw=true "Polynomial Functions.png")
 
-a una función que tiene esta forma se le llama polinomio de grado $n$. A los elementos $a$ los llamaremos coeficientes donde $a \in R$.
 
-**Por ejemplo:**
+```python
+def f(x):
+  return x**7
 
-$$P(x)= 2x^{7} - x^{4} + 3x^{2} + 4$$
+y = f(x)
+
+plt.plot(x,y)
+plt.grid()
+
+```
+
+![Alt text](/Images/PolynomialFunctionsGrap.png?raw=true "Polynomial Functions Grap.png")
 
 ## Trigonometric functions
 
