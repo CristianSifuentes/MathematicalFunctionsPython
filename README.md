@@ -1,4 +1,3 @@
-
 # Mathematical Functions Python
 
 ## Description
@@ -20,11 +19,29 @@ Algebraic functions.
 
 ## Linear Functions
 
-Tiene la forma de $f(x)=mx + b$ donde $m$ y $b$  $\in R$.
+![Alt text](/Images/LinearFunction.png.png?raw=true "Linear Function.png")
 
-$m$ puede ser calculada por: $$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$$
 
-y $b$ es el punto de corte con el eje $y$. Su dominio es $Dom_{f} = (-\infty, \infty)$. Su imagen es $Im_{f} = (-\infty, \infty)$
+```python
+N = 100
+
+m = -1
+
+b = 3
+
+def f(x):
+  return m*x+b
+
+x = np.linspace(-10,10, num=N)
+
+y = f(x)
+
+fig, ax = plt.subplots()
+ax.plot(x,y)
+ax.grid()
+
+```
+
 
 ## Polynomial Functions
 
@@ -83,10 +100,3 @@ $$
 $x_{n}$
 $$\cos\bar{\phi}_k Q_{j,k+1,t} + Q_{j,k+1,x}+ \frac{\sin^2\bar{\phi}_k}{T\cos\bar{\phi}_k} Q_{j,k+1} = -\cos\phi_j Q_{j,k,t} + Q_{j,k,y}-\frac{\sin^2\phi_j}{T\cos\phi_j} Q_{j,k}$$
 
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-
-
-```math
-e^i + 1 = 0
-```
