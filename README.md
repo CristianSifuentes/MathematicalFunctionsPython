@@ -69,15 +69,37 @@ plt.grid()
 
 ![Alt text](/Images/PolynomialFunctionsGrap.png?raw=true "Polynomial Functions Grap.png")
 
+
+
 ## Trigonometric functions
 
-Algunos ejemplos son las funciones $cos(x)$, $sen(x)$ y $tan(x)$
+![Alt text](/Images/TrigonometricFunctions.png?raw=true "TrigonometricFunctions.png")
+
+
+```python
+def f(x):
+  return np.cos(x)
+
+y = f(x)
+
+plt.plot(x,y)
+```
+
+![Alt text](/Images/TrigonometricFunctionsGrap.png?raw=true "Trigonometric Functions Grap.png")
 
 ## Exponential function
 
-Tienen la forma de $$f(x)=a^x$$ donde la base $a$ es una constante positiva. Un gran ejemplo de una función exponencial es usando la base como el número de euler:
+![Alt text](/Images/ExponentialFunctions.png?raw=true "Exponential Functions.png")
 
-$$f(x)=e^x$$
+```python
+def f(x):
+  return np.exp(x)
+
+y=f(x)
+
+plt.plot(x,y
+```
+![Alt text](/Images/ExponentialFunctionsGrap.png?raw=true "Exponential Functions Grap.png")
 
 ## Logarithm Function
 
