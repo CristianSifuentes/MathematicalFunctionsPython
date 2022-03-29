@@ -23,10 +23,12 @@ Algebraic functions.
 ](#sectioned-function)
 
 
+Algebraic functions
+============
 
 
-## Linear Functions
-
+Linear Functions
+-----------
 ![Alt text](/Images/LinearFunction.png?raw=true "Linear Function.png")
 
 
@@ -51,7 +53,8 @@ ax.grid()
 ```
 
 
-## Polynomial Functions
+Polynomial Functions
+-----------
 
 ![Alt text](/Images/PolynomialFunctions.png?raw=true "Polynomial Functions.png")
 
@@ -70,9 +73,14 @@ plt.grid()
 ![Alt text](/Images/PolynomialFunctionsGrap.png?raw=true "Polynomial Functions Grap.png")
 
 
+Transcendent functions
+============
 
-## Trigonometric functions
+They are functions that cannot be expressed with polynomials.
 
+
+Trigonometric functions
+-----------
 ![Alt text](/Images/TrigonometricFunctions.png?raw=true "TrigonometricFunctions.png")
 
 
@@ -87,7 +95,8 @@ plt.plot(x,y)
 
 ![Alt text](/Images/TrigonometricFunctionsGrap.png?raw=true "Trigonometric Functions Grap.png")
 
-## Exponential function
+Exponential function
+-----------
 
 ![Alt text](/Images/ExponentialFunctions.png?raw=true "Exponential Functions.png")
 
@@ -101,8 +110,8 @@ plt.plot(x,y)
 ```
 ![Alt text](/Images/ExponentialFunctionsGrap.png?raw=true "Exponential Functions Grap.png")
 
-## Logarithm Function
-
+Logarithm Function
+-----------
 ![Alt text](/Images/LogarithmFunction.png?raw=true "LogarithmFunction.png")
 
 ```python
@@ -115,8 +124,10 @@ plt.plot(x,f(x))
 
 ![Alt text](/Images/LogarithmFunctionGrap.png?raw=true "LogarithmFunction Grap.png")
 
-## Sectioned Function
 
+
+Sectioned Function
+============
 ![Alt text](/Images/SectionedFunction.png?raw=true "Sectioned Function.png")
 
 ```python
