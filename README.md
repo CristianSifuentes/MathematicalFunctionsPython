@@ -97,44 +97,45 @@ def f(x):
 
 y=f(x)
 
-plt.plot(x,y
+plt.plot(x,y)
 ```
 ![Alt text](/Images/ExponentialFunctionsGrap.png?raw=true "Exponential Functions Grap.png")
 
 ## Logarithm Function
 
-El logaritmo está definido por la **relación**:
+![Alt text](/Images/LogarithmFunction.png?raw=true "LogarithmFunction.png")
 
-$$log_{b}(x) = n \Longleftrightarrow x=b^n$$
+```python
+def f(x):
+  return np.log2(x)
 
-donde:
+x = np.linspace(0.001,256, num=1000)
+plt.plot(x,f(x))
+```
 
-*$b$ es la base.
-*$n$ es el exponente al que está elevado la base.
-*$x$ es el resultado de elevar la base $b$ al exponente $n$
-
-**Ejemplo:**
-
-Teniendo b=2 y n=8, entonces:
-
-$$2^8=256$$
-
-Por lo que $x=256$. Calculando el logaritmo base 2 de $x$ es:
-
-$$log_{2}(256) = 8$$
+![Alt text](/Images/LogarithmFunctionGrap.png?raw=true "LogarithmFunction Grap.png")
 
 ## Sectioned Function
 
-Son funciones que tienen diferentes valores definidos por un intervalo. Por ejemplo la función escalón de Heaviside:
+![Alt text](/Images/SectionedFunction.png?raw=true "Sectioned Function.png")
 
-$$
-H(x) =
-     \begin{cases}
-        0, &\quad \text{para, } x < 0 \\
-        1,  &\quad\text{para. } x \ge 0 \\
-     \end{cases}
-$$
+```python
+def H(x):
+  Y = np.zeros(len(x))
+  for idx,x in enumerate(x):
+    if x>=0:
+      Y[idx]=1
+  return Y
+    
 
-$x_{n}$
-$$\cos\bar{\phi}_k Q_{j,k+1,t} + Q_{j,k+1,x}+ \frac{\sin^2\bar{\phi}_k}{T\cos\bar{\phi}_k} Q_{j,k+1} = -\cos\phi_j Q_{j,k,t} + Q_{j,k,y}-\frac{\sin^2\phi_j}{T\cos\phi_j} Q_{j,k}$$
+N=1000
 
+x = np.linspace(-10,10, num=N)
+
+y = H(x)
+
+plt.plot(x,y)
+```
+
+
+![Alt text](/Images/SectionedFunctionGrap.png?raw=true "Sectioned Function Grap.png")
